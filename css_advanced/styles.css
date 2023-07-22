@@ -1,0 +1,248 @@
+body, html {
+    font-family: 'Source Sans Pro', 'Spin Cycle', sans-serif;
+    min-width: 1440px;
+}
+
+/* HEADER */
+
+header {
+    position: absolute;
+    margin: 28px 170px;
+    display: flex;
+    width: 1104px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    flex-shrink: 0;
+}
+
+header ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+header ul li {
+    margin-right: 52px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.last-nav {
+    margin-right: 0;
+}
+
+header ul a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* >> Banner Section */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url("images/Object.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1055px;
+    flex-shrink: 0;
+}
+
+.rectangle {
+    width: 1440px;
+    height: 38px;
+    background-color: #071629;
+}
+
+.hero-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.hero-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+    word-spacing: 57px;
+}
+
+.hero-btn {
+    margin-top: 38px;
+    width: 180px;
+    height: 45px;
+    flex-shrink: 0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 22px;
+    background-color: #C271FF;
+    border-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.hero-group {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-h2 {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.smile-em {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.hero-pros {
+    width: 1010px;
+    height: 237px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-details {
+    width: 150px;
+    height: 237px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pro-img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.pro-h3 {
+    margin-bottom: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.pro-p {
+    margin-top: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Quote Section */
+.quote {
+    height: 392px;
+    flex-shrink: 0;
+    background-color: #C271FF;
+}
+
+.testimonial {
+    margin: 120px 250px;
+    width: 943px;
+    height: 160px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote-author {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+}
+
+.quote blockquote {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+
+.quote-h3 {
+    margin-left: 53px;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.quote-p {
+    margin-left: 53px;
+    color: #FFF;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+}

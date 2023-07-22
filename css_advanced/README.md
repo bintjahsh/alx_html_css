@@ -9,6 +9,6 @@ This is a continuation of the HTML, Advanced project. In this project, we will b
 + What are Box properties in CSS
 + How does the browser load a webpage
 
-![The picture of the webpage to be designed](School%20Page@2x.png)
+![The picture of the webpage to be designed](css_advanced\images\School Page@2x.png)
 
 Enjoy!
