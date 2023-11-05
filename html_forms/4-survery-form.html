@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:<span aria-label="required">*</span></label>
+          <input type="text" id="name" name="user_name" required />
+        </li>
+        <li>
+          <label for="mail">Email:<span aria-label="required">*</span></label>
+          <input type="email" id="mail" name="user_email" required />
+        </li>
+        <li>
+          <label for="fav-color">Choose a pet:</label>
+
+          <select name="favColor" id="fav-color" required>
+            <option value="">--Select a favourite colour--</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+          </select>
+        </li>
+        <li>
+          <label for="dob">When were you born?</label>
+          <input
+            type="date"
+            id="dob"
+            name="birthDate"
+            value="2023-10-22"
+            min="1985-01-01"
+            max="2006-12-31"
+            required
+          />
+        </li>
+        <li>
+          <label for="tob">Choose a time for your meeting:</label>
+
+          <input
+            type="time"
+            id="tob"
+            name="birthTime"
+            min="00:00"
+            max="23:00"
+            required
+          />
+        </li>
+        <li>
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

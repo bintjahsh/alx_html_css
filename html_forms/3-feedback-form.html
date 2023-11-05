@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:<span aria-label="required">*</span></label>
+          <input type="text" id="name" name="user_name" required />
+        </li>
+        <li>
+          <label for="mail">Email:<span aria-label="required">*</span></label>
+          <input type="email" id="mail" name="user_email" required />
+        </li>
+        <li>
+          <fieldset>
+            <legend>
+              Rate your experience<span aria-label="required">*</span>
+            </legend>
+            <div>
+              <input
+                type="checkbox"
+                name="experience"
+                id="poorX"
+                value="poor"
+              />
+              <label for="poorX">Poor</label>
+
+              <input
+                type="checkbox"
+                name="experience"
+                id="averageX"
+                value="average"
+              />
+              <label for="averageX">Average</label>
+
+              <input
+                type="checkbox"
+                name="experience"
+                id="goodX"
+                value="good"
+                required
+              />
+              <label for="goodX">Good</label>
+
+              <input
+                type="checkbox"
+                name="experience"
+                id="excellentX"
+                value="excellent"
+              />
+              <label for="excellentX">Excellent</label>
+
+              <input
+                type="checkbox"
+                name="experience"
+                id="exceptionalX"
+                value="exceptional"
+              />
+              <label for="exceptionalX">Exceptional</label>
+            </div>
+          </fieldset>
+        </li>
+        <li>
+          <label for="userPic">Send us a picture of your experience:</label>
+          <input
+            type="file"
+            id="userPic"
+            name="userPic"
+            accept="image/png, image/jpeg"
+            required
+          />
+        </li>
+        <li>
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
